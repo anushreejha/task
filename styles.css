@@ -40,9 +40,18 @@ body {
 
 .outer-scroll {
     position: absolute;
-    width: 7%; 
-    height: 70%; 
+    width: 15%; 
+    height: 75%; 
     background-color: #121212;
-    top: 15%; 
-    right: 21.5%; 
+    top: 12.5%; 
+    right: 17%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.inner-scroll {
+    width: 55%; 
+    height: 92%; 
+    background-color: #3EF2EF; 
 }
