@@ -25,11 +25,20 @@ body {
 }
 
 .vertical-strip {
-    position: absolute; /* Position the strip absolutely within the inner box */
+    position: absolute;
     width: 7px;
-    height: 570px; /* Same height as inner box */
+    height: 570px; 
     background-color: #121212;
-    top: 0; /* Align the strip to the top of the inner box */
-    left: 50%; /* Position the strip at the center horizontally */
-    transform: translateX(-50%); /* Adjust for the width of the strip */
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.outer-scroll {
+    position: absolute; 
+    width: 40px; 
+    height: 400px; 
+    background-color: #121212; 
+    top: 17%; 
+    left: 71.5%; 
 }
