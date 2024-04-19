@@ -97,8 +97,13 @@ body {
     max-width: 120px; 
     max-height: 175px; 
     background-color: #707070;
-    border: 4px solid #3EF2EF;
+    border: 4px solid #121212; 
     border-radius: 50px; 
     margin-top: 10px; 
     margin-bottom: 10px; 
 }
+
+.button.on {
+    border-color: #3EF2EF; 
+}
+
