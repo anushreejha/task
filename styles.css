@@ -101,9 +101,11 @@ body {
     border-radius: 50px; 
     margin-top: 10px; 
     margin-bottom: 10px; 
+    transition: transform 0.2s ease-in-out
 }
 
 .button.on {
     border-color: #3EF2EF; 
+    transform: scale(0.95);
 }
 
