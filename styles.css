@@ -13,7 +13,7 @@ body {
     max-width: 550px; 
     height: 90%; 
     max-height: 600px; 
-    background-color: #373737;
+    background-color: #3c3c3c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,14 +26,15 @@ body {
     max-height: 570px; 
     background-color: #212121;
     border-radius: 5%;
+    background: linear-gradient(to right, #050505, #212121 8%, #212121);
     position: relative;
 }
 
 .vertical-strip {
     position: absolute;
-    width: 1%; 
-    height: 100%; 
-    background-color: #121212;
+    width: 1%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(33, 33, 33, 0), #121212, #121212, rgba(33, 33, 33, 0));
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -46,15 +47,23 @@ body {
     background-color: #121212;
     top: 12.5%; 
     right: 17%; 
+    border-top-left-radius: 35px; 
+    border-top-right-radius: 35px; 
+    border-bottom-left-radius: 35px; 
+    border-bottom-right-radius: 35px; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
 }
 
 .inner-scroll {
-    width: 55%; 
-    height: 92%; 
+    width: 50%; 
+    height: 90%; 
     background-color: #3EF2EF; 
+    border-top-left-radius: 35px; 
+    border-top-right-radius: 35px; 
+    border-bottom-left-radius: 35px; 
+    border-bottom-right-radius: 35px; 
 }
 
 .scroll-icon {
@@ -73,7 +82,7 @@ body {
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    background: radial-gradient(circle, #5F5D5D 0%, #707070 100%);
+    background: radial-gradient(circle, #4c4c4c 0%, #707070 100%);
     position: absolute;
     top: 50%;
     left: 50%;
