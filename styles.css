@@ -25,6 +25,7 @@ body {
     height: 95%; 
     max-height: 570px; 
     background-color: #212121;
+    border-radius: 5%;
     position: relative;
 }
 
@@ -54,4 +55,27 @@ body {
     width: 55%; 
     height: 92%; 
     background-color: #3EF2EF; 
+}
+
+.scroll-icon {
+    width: 75%;
+    height: 14%;
+    border-radius: 50%;
+    background-color: #707070;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scroll-icon::before {
+    content: "";
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: radial-gradient(circle, #5F5D5D 0%, #707070 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
